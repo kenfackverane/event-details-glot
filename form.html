@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer l'évènement</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="form-logo">
+                <img src="logo 3.jpg" alt="logo">
+            </div>
+        </header>
+        <main>
+            <h1>EVENT DETAILS</h1>
+            <form>
+                <div class="form-group">
+                    <label for="eventName">Nom de l'évènement :</label>
+                    <input type="text" id="eventName" name="eventName">
+                </div>
+                <div class="form-group">
+                    <label for="eventLocation">Lieu :</label>
+                    <input type="text" id="eventLocation" name="eventLocation">
+                </div>
+                <div class="form-group">
+                    <label for="eventDescription">Description :</label>
+                    <textarea id="eventDescription" name="eventDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="eventDate">Date de l'évènement :</label>
+                    <input type="date" id="eventDate" name="eventDate">
+                </div>
+                
+                <div class="form-group">
+                    <label for="eventStatus">Statut :</label>
+                    <select id="eventStatus" name="eventStatus">
+                        <option value="active">Actif</option>
+                        <option value="inactive">Inactif</option>
+                    </select>
+                </div>
+                <button type="submit"> validez votre commande</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

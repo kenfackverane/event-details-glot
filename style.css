@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(57, 129, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ 
+ .container{
+     margin-top: 5%;
+     background-color: #e7943f;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     height: 85vh;
+     width: 53vw; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border: 2PX solid transparent;
+     border-radius: 10px;
+     animation: borderAnimation 4s infinite, formAnimation 1.5s ease-in-out infinite alternate;
+ 
+ }
+     @keyframes borderAnimation {
+         0% {
+             border-color: red;
+         }
+         25% {
+             border-color: yellow;
+         }
+         50% {
+             border-color: green;
+         }
+         75% {
+             border-color: blue;
+         }
+         100% {
+             border-color: red;
+         }
+     }
+    
+     
+ 
+ .image{
+     width: 50vw;
+     height: 80vh;
+     margin: 20px;
+     border: 1px solid gray;
+     border-radius: 10px;
+     box-shadow: 0 0 10px red;
+ }
+ .emerveillez{
+     width: 20%;
+ }
+ 
